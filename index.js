@@ -5,7 +5,7 @@ const app = express();
 const port = 5000;
 
 app.use(bodyParser.json());
-app.use(express.static('public'));
+app.use(express.static('.'));
 
 let blogPosts = [];
 
